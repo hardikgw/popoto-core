@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Popotojs/popoto-core/issues"
   },
-  "homepage": "https://github.com/Popotojs/popoto-core#readme"
+  "homepage": "https://github.com/Popotojs/popoto-core#readme",
+  "devDependencies": {
+    "mocha": "latest"
+  }
 }
