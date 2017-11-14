@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - stable
+install:
+ - npm install
+deploy:
+  provider: npm
+  email: "contact@popotojs.com"
+  api_key: $NPM_TOKEN
+notifications:
+ slack: pipot:9bOymKdaSOJyFzqBStPiLo6l
+ on_success: always

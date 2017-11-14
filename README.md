@@ -1,2 +1,2 @@
 # popoto-core
-core popoto features without UI
+Core popoto features without UI
