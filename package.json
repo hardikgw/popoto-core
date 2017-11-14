@@ -4,7 +4,8 @@
   "description": "Core Popoto.js features without UI",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -u tdd"
+    "test": "nyc mocha -u tdd",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,13 @@
   },
   "homepage": "https://github.com/Popotojs/popoto-core#readme",
   "devDependencies": {
-    "mocha": "latest"
+    "coveralls": "^3.0.0",
+    "mocha": "^4.0.1",
+    "mocha-lcov-reporter": "^1.3.0",
+    "neo4j-driver": "^1.5.0",
+    "nyc": "^11.3.0"
+  },
+  "dependencies": {
+    "neo4j-driver": "^1.5.0"
   }
 }

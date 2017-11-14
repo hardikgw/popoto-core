@@ -10,3 +10,4 @@ deploy:
 notifications:
  slack: pipot:9bOymKdaSOJyFzqBStPiLo6l
  on_success: always
+after_success: npm run coverage
