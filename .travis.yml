@@ -3,11 +3,20 @@ node_js:
  - stable
 install:
  - npm install
+after_success:
+ - npm run coverage
+ - npm run docs
 deploy:
-  provider: npm
-  email: "contact@popotojs.com"
-  api_key: $NPM_TOKEN
+ - provider: pages
+   skip_cleanup: true
+   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+   email: "contact@popotojs.com"
+   local_dir: gh-pages
+   on:
+     branch: gh-pages
+ - provider: npm
+   email: "contact@popotojs.com"
+   api_key: $NPM_TOKEN
 notifications:
  slack: pipot:9bOymKdaSOJyFzqBStPiLo6l
  on_success: always
-after_success: npm run coverage
