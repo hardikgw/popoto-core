@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha -u tdd",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "docs": "./node_modules/.bin/esdoc"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,10 @@
   "homepage": "https://github.com/Popotojs/popoto-core#readme",
   "devDependencies": {
     "coveralls": "^3.0.0",
+    "esdoc": "^1.0.4",
+    "esdoc-standard-plugin": "^1.0.0",
     "mocha": "^4.0.1",
     "mocha-lcov-reporter": "^1.3.0",
-    "neo4j-driver": "^1.5.0",
     "nyc": "^11.3.0"
   },
   "dependencies": {
