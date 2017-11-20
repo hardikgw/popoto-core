@@ -1,3 +1,5 @@
+<p align="center"><a href="https://popotojs.com" target="_blank"><img width="100"src="https://popotojs.github.io/popoto-core/ink-stain.svg"></a></p>
+
 # popoto-core
 [![Build Status](https://travis-ci.org/Popotojs/popoto-core.svg?branch=master)](https://travis-ci.org/Popotojs/popoto-core)
 [![Coverage Status](https://coveralls.io/repos/github/Popotojs/popoto-core/badge.svg)](https://coveralls.io/github/Popotojs/popoto-core)
