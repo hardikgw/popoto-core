@@ -11,6 +11,8 @@
 [![dependencies](https://david-dm.org/popotojs/popoto-core/dev-status.svg)](https://david-dm.org/popotojs/popoto-core?type=dev)
 [![docs](https://popotojs.github.io/popoto-core/docs/badge.svg)](https://popotojs.github.io/popoto-core/docs)
 [![doc coverage](http://inch-ci.org/github/popotojs/popoto-core.svg?branch=master)](https://inch-ci.org/github/popotojs/popoto-core)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/Popotojs/popoto-core.svg?columns=all)](https://waffle.io/Popotojs/popoto-core)
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/FredCiminera)
 
 Core popoto features without UI.
 
